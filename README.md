@@ -1,6 +1,6 @@
 
-
-# MAD4037_Gompertz_TP Project Structure
+# MAD4037 – TP Processus stochastique
+## Gompertz tree-diameter simulator
 
 ```
 MAD4037_Gompertz_TP/
@@ -11,10 +11,6 @@ MAD4037_Gompertz_TP/
 └── assignment_submission_email.txt
 ```
 
-
-```markdown
-# MAD4037 – TP Processus stochastique
-## Gompertz tree-diameter simulator
 
 This project implements a stochastic version of the Gompertz model for simulating tree diameter growth over time. The model incorporates random environmental fluctuations through exponentially distributed noise.
 
@@ -78,6 +74,21 @@ python gompertz_with_Xkminus2.py --r 0.3 --D 100 --lambda 0.7 --years 50
 ```bash
 python gompertz_with_Xkminus1_only.py --r 0.3 --D 100 --lambda 0.7 --years 50
 ```
+
+
+---
+
+## Default Output Images
+
+Below are example outputs generated with the default parameters:
+
+**Version with X_{k-2} term**
+
+![Gompertz Xkminus2 Output](output/gompertz_run_Xkminus2_r0.3_l0.7.png)
+
+**Version with X_{k-1} term only**
+
+![Gompertz Xkminus1 Output](output/gompertz_run_Xkminus1_r0.3_l0.7.png)
 
 ### Command-line Arguments
 
@@ -165,18 +176,3 @@ GitHub: [https://github.com/menoc61/MAD4037_Gompertz_TP](https://github.com/meno
 ## License
 
 This project is for educational purposes as part of the MAD4037 stochastic processes course.
-```
-
-## 5. assignment_submission_email.txt
-
-```
-Objet: devoir TP MAD4037 – Momeni Gilles Christian
-
-Bonjour Professeur,
-
-Veuillez trouver ci-joint le travail pratique demandé (simulateur du processus de Gompertz) ainsi qu'un lien vers le depot GitHub :  
-https://github.com/menoc61/MAD4037_Gompertz_TP
-
-Bien cordialement,  
-Momeni Gilles Christian
-```

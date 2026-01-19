@@ -1,0 +1,9 @@
+Objet: devoir TP MAD4037 – Momeni Gilles Christian
+
+Bonjour Professeur,
+
+Veuillez trouver ci-joint le travail pratique demandé (simulateur du processus de Gompertz) ainsi qu'un lien vers le depot GitHub :  
+https://github.com/menoc61/MAD4037_Gompertz_TP
+
+Bien cordialement,  
+Momeni Gilles Christian
